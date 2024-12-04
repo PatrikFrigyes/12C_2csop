@@ -10,6 +10,7 @@ namespace koreshenger
     {
         static void Main(string[] args)
         {
+            int SetTerulet, SetKerulet;
             Kör k1 = new Kör();
             k1.SetSugar(15);
             k1.SetTerulet();

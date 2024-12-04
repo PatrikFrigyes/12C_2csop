@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace korhenger_test
+namespace köHenger_UnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class Henger_Teszt
     {
         [TestMethod]
         public void TestMethod1()
