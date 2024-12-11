@@ -10,22 +10,35 @@ namespace KöHenger_UnitTest
         [TestMethod]
         public void Kerület_Teszt()
         {
-            // Arrange - Feltételek beállítása
-            double sugár = 5;
-            Kör kör = new Kör(sugár);
-            double vártEredm = 31.42;
+            [TestMethod]
+            public void Kerület_Teszt()
+            {
+                // Arrange - Feltételek beállítása
+                double sugár = 5;
+                Kör kör = new Kör(sugár);
+                double vártEredm = 31.42;
 
-            // Act - Végrehajtás
-            kör.SetKerület();
-            double kapottEredm = kör.GetKerület();
+                // Act - Végrehajtás
+                kör.SetKerület();
+                double kapottEredm = kör.GetKerület();
+                // Assert - Kiértékelés
+                Assert.AreEqual(vártEredm, kapottEredm);
+            }
+            [TestMethod]
+            public void Terület_Teszt()
+            {
+                // Arrange - Feltételek beállítása
+                double sugár = 5;
+                Kör kör = new Kör(sugár);
+                double vártEredm = 78.54;
 
-            // Assert - Kiértékelés
-            Assert.AreEqual(vártEredm, kapottEredm);
-        }
+                // Act - Végrehajtás
+                kör.SetTerület();
+                double kapottEredm = kör.GetTerület();
 
-        [TestMethod]
-        public void Terület_Teszt()
-        {
+                // Assert - Kiértékelés
+                Assert.AreEqual(vártEredm, kapottEredm);
+            }
         }
     }
 }

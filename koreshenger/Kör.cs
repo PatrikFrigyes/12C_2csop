@@ -9,8 +9,8 @@ namespace koreshenger
     public class Kör
     {
         protected double sugar,
-            terület,
-            kerület;
+             terület,
+             kerület;
 
         public Kör() { }
 
@@ -20,7 +20,10 @@ namespace koreshenger
             {
                 throw new ArgumentException("A kör sugara nem lehet 0 és annál kisebb!");
             }
-            else this.sugar = r;
+            else
+            {
+                this.sugar = r;
+            }
         }
 
         public void SetSugar(double r)
@@ -29,7 +32,10 @@ namespace koreshenger
             {
                 throw new ArgumentException("A kör sugara nem lehet 0 és annál kisebb!");
             }
-            else this.sugar = r;
+            else
+            {
+                this.sugar = r;
+            }
         }
 
         public void SetTerület()
@@ -41,15 +47,14 @@ namespace koreshenger
         {
             this.kerület = Math.Round(2 * this.sugar * Math.PI, 2);
         }
+        public double GetKerület()
+        {
+            return this.kerület;
+        }
 
         public double GetTerület()
         {
             return this.terület;
-        }
-
-        public double GetKerület()
-        {
-            return this.kerület;
         }
 
         public double GetSugár()
@@ -68,6 +73,7 @@ namespace koreshenger
         public Henger(double s, double m)
         {
             // Változók beállítása
+
             if (s <= 0 || m <= 0)
             {
                 throw new ArgumentException("A henger sugara és magassága nem lehet 0 és annál kisebb!");
@@ -82,6 +88,10 @@ namespace koreshenger
                 SetTerület();
                 this.térfogat = this.terület * this.magasság;
             }
+
+
+
+
         }
 
         public double GetTérfogat()
