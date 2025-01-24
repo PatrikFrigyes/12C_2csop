@@ -50,11 +50,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Altvalt\Altvalt_UnitTest.csproj">
-      <Project>{cfc0a2c7-8cde-4ece-b871-d7efe8707e56}</Project>
-      <Name>Altvalt_UnitTest</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
