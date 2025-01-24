@@ -48,7 +48,7 @@ namespace Atvaltoop
             return eredm;
         }
 
-        private void binarisToDecimalis(string szam)
+        public void binarisToDecimalis(string szam)
         {
             // Az eljárás a helyi és alaki érték szorzat
             int j = 1;
@@ -59,7 +59,7 @@ namespace Atvaltoop
             }
         }
 
-        private bool isBinaris(string szam)
+        public bool isBinaris(string szam)
         {
             bool eredm = true; // Mivel az elvárás szerint bináris szám az első karaktere 0!
             for (int i = 1; i < szam.Length; i++)
