@@ -22,5 +22,44 @@ namespace Altvalt_Unittest
 
 
         }
+        [TestMethod]
+        public void isDecimal_False()
+        {
+            string szoveg = "!";
+            bool vartEredm = false,
+                kapottEredm = true;
+
+            kapottEredm = atvalt.isDecimal(szoveg);
+
+            Assert.AreEqual(kapottEredm, vartEredm);
+
+
+        }
+        [TestMethod]
+
+        public void iSbinar_true()
+        {
+            string szoveg = "01010101";
+            bool vartEredm = true,
+                kapottEredm = false;
+
+            kapottEredm = atvalt.isDecimal(szoveg);
+
+            Assert.AreEqual(kapottEredm, vartEredm);
+
+        }
+        [TestMethod]
+        public void iSbinar_false()
+        {
+            string szoveg = "!";
+            bool vartEredm = false,
+                kapottEredm = true;
+
+            kapottEredm = atvalt.isDecimal(szoveg);
+
+            Assert.AreEqual(kapottEredm, vartEredm);
+        }
+
+
     }
 }
