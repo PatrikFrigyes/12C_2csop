@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atvalt
+namespace Atvaltoop
 {
-    class Altvalt
+    public class Altvalt
     {
         //Osztályváltozók
         string eredmeny = string.Empty; // Az eredményt ebbe képezzük
@@ -32,7 +32,7 @@ namespace Atvalt
             }
         }
 
-        private bool isDecimal(string szam)
+        public bool isDecimal(string szam)
         {
             // A decimálist úgy vizsgáljuk, hogy konvertálható -e
             bool eredm = true;
