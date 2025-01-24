@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "korhenger_test", "korhenger
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atvalt", "Atvalt\Atvalt.csproj", "{36DDE3BC-1033-4598-965A-70913724FF9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altvalt", "Altvalt\Altvalt.csproj", "{CFC0A2C7-8CDE-4ECE-B871-D7EFE8707E56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{36DDE3BC-1033-4598-965A-70913724FF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36DDE3BC-1033-4598-965A-70913724FF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36DDE3BC-1033-4598-965A-70913724FF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC0A2C7-8CDE-4ECE-B871-D7EFE8707E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC0A2C7-8CDE-4ECE-B871-D7EFE8707E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC0A2C7-8CDE-4ECE-B871-D7EFE8707E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC0A2C7-8CDE-4ECE-B871-D7EFE8707E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
