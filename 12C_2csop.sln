@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{23898556-2021-49E9-9749-722FA7F0D4D5}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "koreshenger", "koreshenger\koreshenger.csproj", "{B76BF14C-4E05-475F-A786-596D44271FD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "korhenger_test", "korhenger_test\korhenger_test.csproj", "{F3C22403-FB82-47AC-AA96-429600AF6663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atvalt", "Atvalt\Atvalt.csproj", "{36DDE3BC-1033-4598-965A-70913724FF9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F3C22403-FB82-47AC-AA96-429600AF6663}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C22403-FB82-47AC-AA96-429600AF6663}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3C22403-FB82-47AC-AA96-429600AF6663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DDE3BC-1033-4598-965A-70913724FF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DDE3BC-1033-4598-965A-70913724FF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DDE3BC-1033-4598-965A-70913724FF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DDE3BC-1033-4598-965A-70913724FF9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
