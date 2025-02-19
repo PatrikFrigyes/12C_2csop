@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34301.259
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testproject", "testproject\testproject.csproj", "{8DB48D76-56AF-49F2-B9A4-7CE0B97A7A2F}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atvalt", "Atvalt\Atvalt.csproj", "{36DDE3BC-1033-4598-965A-70913724FF9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altvalt_Unittest", "Altvalt_Unittest\Altvalt_Unittest.csproj", "{14D15325-2E82-4B4C-945A-0213D0A45834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorTDD", "KorTDD\KorTDD.csproj", "{F042D3D7-D61B-442A-B3CD-BEDCBC0500DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{14D15325-2E82-4B4C-945A-0213D0A45834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14D15325-2E82-4B4C-945A-0213D0A45834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14D15325-2E82-4B4C-945A-0213D0A45834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F042D3D7-D61B-442A-B3CD-BEDCBC0500DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F042D3D7-D61B-442A-B3CD-BEDCBC0500DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F042D3D7-D61B-442A-B3CD-BEDCBC0500DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F042D3D7-D61B-442A-B3CD-BEDCBC0500DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
